@@ -1,0 +1,59 @@
+
+
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form Creation</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Syne+Mono&display=swap" rel="stylesheet">
+        <style>
+           h1{
+            font-weight: bold;
+            text-decoration: white;
+            color:black;
+            text-shadow: 2px 2px;
+           
+           }
+           h2{
+               color: black;
+           }
+           .backy{
+            background-image: url('img/donationpage.jpg');
+            background-blend-mode:overlay;
+            opacity: initial;
+            
+            
+           
+
+                
+
+            }
+        </style>
+
+    </head>
+    <body class="backy">
+        <h1 class="text-center" style=" font-family: 'Syne Mono', monospace;">"Giving is not just about about making a donation , its about making a difference" - Kathy Calvin</h1>
+        <div class="form">
+            <h2 class ="text-small" style ="font-family: 'Akaya Telivigala', cursive;"> You may or may not identify yourself when making a donation. Thank you so much for your support!!!.</h2>
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone no">
+            <input class="form-input" type="text" name="email" id="email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="5" placeholder="Send a message"></textarea>
+            <!--<button class = "btn btn-dark">Submit</button>-->
+            <h2 class ="text-small" style ="font-family: 'Akaya Telivigala', cursive;" >You will be directed to RazorPay in a few seconds after clicking "Donate Now", please complete all required information in RazorPay.</h2><br>
+            <!--<form class="text-center"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FxN5kxNxBryV92"> </script> </form>-->
+            <form class="text-center"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GnkKzYxRPIANvL" async> </script> </form>
+        </div>
+       
+    </body>
+</html>
+
+        
+
+    
+
+
+
+
